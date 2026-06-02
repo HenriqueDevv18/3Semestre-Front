@@ -1,7 +1,7 @@
 import './App.css'
 import Paragrafo from './components/paragrafo/paragrafo';
 import Title from './components/title/title';
-import Header from './components/header/header';
+
 function App() {
   return (
     <>

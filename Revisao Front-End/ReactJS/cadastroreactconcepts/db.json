@@ -1,0 +1,19 @@
+{
+  "produtos": [
+    {
+      "id": "3",
+      "titulo": "Produto xpto",
+      "preco": 55.08,
+      "descricao": "lorem ipsum",
+      "imagem": "hero.png"
+    },
+    {
+      "titulo": "samuel",
+      "descricao": "samuel gordinho",
+      "preco": 20,
+      "imagem": "hero.png",
+      "id": "sDYZQonpM9M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

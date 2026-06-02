@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -91,7 +91,79 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T16:49:19.458Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T17:46:44.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T17:33:07.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:39:00.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:27:15.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Criptografia.cs",
+              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Utils\\Criptografia.cs",
+              "RelativeDocumentMoniker": "Utils\\Criptografia.cs",
+              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Utils\\Criptografia.cs",
+              "RelativeToolTip": "Utils\\Criptografia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:18:31.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilmeContext.cs",
+              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\BdContextFilme\\FilmeContext.cs",
+              "RelativeDocumentMoniker": "BdContextFilme\\FilmeContext.cs",
+              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\BdContextFilme\\FilmeContext.cs",
+              "RelativeToolTip": "BdContextFilme\\FilmeContext.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswBoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T17:18:07.353Z",
               "EditorCaption": ""
             },
             {
@@ -104,73 +176,7 @@
               "RelativeToolTip": "DTO\\FilmeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:06:48.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T17:46:44.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T17:33:07.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:39:00.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:27:15.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Criptografia.cs",
-              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Utils\\Criptografia.cs",
-              "RelativeDocumentMoniker": "Utils\\Criptografia.cs",
-              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\Utils\\Criptografia.cs",
-              "RelativeToolTip": "Utils\\Criptografia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:18:31.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T16:06:48.893Z"
             },
             {
               "$type": "Document",
@@ -182,8 +188,7 @@
               "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:13:30.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T14:13:30.353Z"
             },
             {
               "$type": "Document",
@@ -195,8 +200,7 @@
               "RelativeToolTip": "Controllers\\FilmeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T18:43:27.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T18:43:27.039Z"
             },
             {
               "$type": "Document",
@@ -208,8 +212,7 @@
               "RelativeToolTip": "Controllers\\GeneroController.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAwwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T19:21:28.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T19:21:28.102Z"
             },
             {
               "$type": "Document",
@@ -221,8 +224,7 @@
               "RelativeToolTip": "Repositories\\FilmeRepository.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAswGwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:57:18.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T18:57:18.158Z"
             },
             {
               "$type": "Document",
@@ -234,8 +236,7 @@
               "RelativeToolTip": "Repositories\\GeneroRepository.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAiwFwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:54:33.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T18:54:33.42Z"
             },
             {
               "$type": "Document",
@@ -247,8 +248,7 @@
               "RelativeToolTip": "Interfaces\\IGeneroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T17:55:11.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T17:55:11.803Z"
             },
             {
               "$type": "Document",
@@ -260,8 +260,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-19T17:36:26.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T17:36:26.921Z"
             },
             {
               "$type": "Document",
@@ -273,8 +272,7 @@
               "RelativeToolTip": "FilmesTorloni.WebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-19T16:56:53.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T16:56:53.988Z"
             },
             {
               "$type": "Document",
@@ -286,21 +284,7 @@
               "RelativeToolTip": "Interfaces\\IFilmeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:30:56.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FilmeContext.cs",
-              "DocumentMoniker": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\BdContextFilme\\FilmeContext.cs",
-              "RelativeDocumentMoniker": "BdContextFilme\\FilmeContext.cs",
-              "ToolTip": "C:\\Users\\42916360832\\Desktop\\3_Semestre\\API\\FilmesTorloni.WebAPI - Copia\\BdContextFilme\\FilmeContext.cs",
-              "RelativeToolTip": "BdContextFilme\\FilmeContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T17:18:07.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T18:30:56.035Z"
             }
           ]
         }
