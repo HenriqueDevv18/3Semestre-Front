@@ -7,6 +7,7 @@ import Home from './components/home/Home'
 import Produto from './components/produto/produto'
 import CadastroProduto from './components/cadastroProduto/CadastroProduto'
 import ListaProduto from './components/listarProduto/ListaProduto'
+import PrivateRoute from './routes/PrivateRoute'
 
 function App() {
 
@@ -16,10 +17,28 @@ function App() {
     <Header/>
     <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/perfil' element={<Perfil/>} />
-      <Route path='/produto' element={<Produto/>} />
-      <Route path='/cadastroProduto' element={<CadastroProduto/>} />
-      <Route path='/listaProduto' element={<ListaProduto />} />
+
+      <Route path='/perfil' element={<Perfil/>}/>
+
+      <Route path='/produto' element={
+        <PrivateRoute>
+        <Produto/>
+        </PrivateRoute>
+        } 
+        />
+      
+      <Route path='/cadastroProduto' element={
+        <PrivateRoute>
+        <CadastroProduto/>
+        </PrivateRoute>
+      } 
+      />
+      <Route path='/listaProduto' element={
+        <PrivateRoute>
+        <ListaProduto />
+        </PrivateRoute>
+        } 
+        />
     </Routes>
     </BrowserRouter>
 );
