@@ -5,6 +5,10 @@ const Botao = (props) => {
 
         <button className="botao" type={props.btnEditar ? "button" : "submit"}
         onClick = {(e)=>{
+            e.preventDefault()
+            if(props.onClick) {
+                props.onClick(e);
+            }
             props.funcBtn(e)
         }}
 

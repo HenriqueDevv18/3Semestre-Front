@@ -5,6 +5,7 @@ import { UsuarioContext } from "../../context/UsuarioContext"
 const Header = () => {
     const { usuario, setUsuario } = useContext(UsuarioContext)
     const logout = () => {
+        localStorage.removeItem("usuario")
         setUsuario(null)
     }
     return (
@@ -18,12 +19,12 @@ const Header = () => {
             </nav>
             <h2>Bem-Vindo, {usuario ? usuario : "Visitante"}
                 <button
-                    onClick={() =>
-                        logout()}
-                >
-
-
-                    Sair</button>
+                    onClick={
+                        () => {
+                        logout()
+                        }
+                      }
+                     >Sair</button>
 
             </h2>
         </header>
