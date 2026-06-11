@@ -1,34 +1,80 @@
 import Logo from "../../assets/img/logo.svg";
 import "./Login.css";
 import Botao from "../../components/botao/Botao.jsx";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { useState } from "react";
 import UsuarioContext from "../../context/UsuarioContext";
 import SenhaContext from "../../context/SenhaContext";
 import { useNavigate } from "react-router-dom";
+import { jwtDecode } from "jwt-decode";
+import { Alerta } from "../../components/alerta/Alerta.jsx"
+import api from "../../Services/services.js"
+
 
 const Login = () => {
 
-    const { email, setEmail } = useContext(UsuarioContext);
-    const { senha, setSenha } = useContext(SenhaContext);
-    const [novoEmail, setNovoEmail] = useState("");
-    const [novoSenha, setNovoSenha] = useState("");
+    const { usuario, setUsuario } = useContext(UsuarioContext)
+    const [email, setEmail] = useState("");
+    const [senha, setSenha] = useState("");
     const navigate = useNavigate();
 
+    const login = async () => {
 
-    const login = async (e) => {
+        if (email.trim().length == 0 || senha.trim().length == 0) {
+            Alerta({
+                title: "Login",
+                text: "Preencher todos os campos",
+                icon: "warning",
+                confirmButtonText: "OK"
+            });
+            return false;
+        }
 
-        localStorage.setItem("email", JSON.stringify(novoEmail));
-        localStorage.setItem("senha", JSON.stringify(novoSenha));
+        const dadosLogin = {
+            email: email,
+            senha: senha,
+        };
+
+        // console.log(email);
+        // console.log(senha);
+        
+        try {
+            const retornoAPI = await api.post("/Login", dadosLogin)
+            const token = await retornoAPI.data.token
+            
+            const usuarioDecoded = jwtDecode(token)
+            setUsuario(usuarioDecoded)
+            localStorage.setItem("usuario", JSON.stringify(usuarioDecoded))
+            setEmail("");
+            setSenha("");
+            navigate("/filmes")
+
+        } catch (error) {
+            console.log(error);
+            
+            Alerta({
+                title: "Login",
+                text: "Usuario nao encontrado",
+                icon: "warning",
+                confirmButtonText: "OK"
+                
+            })
+         }
+        
 
 
-        setEmail(novoEmail)
-        setSenha(novoSenha)
+            const verificaLogin = () => {
+                const logado = JSON.parse(localStorage.getItem("usuario"))
+           
+            if(logado != undefined || logado != null) {
+                setUsuario(logado)
+                navigate("/generos")
+            }
+        }
+        useEffect(() => {
+            verificaLogin()
+        }, [])
 
-        setNovoEmail("");
-        setNovoSenha("");
-
-        navigate("/filmes")
     }
 
 
@@ -42,11 +88,11 @@ const Login = () => {
                     <div className="campos_login">
                         <div className="campo_input">
                             <label htmlFor="email">Email:</label>
-                            <input value={novoEmail} onChange={(e) => setNovoEmail(e.target.value)} type="email" name="email" placeholder="Digite seu email" />
+                            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" name="email" placeholder="Digite seu email" />
                         </div>
                         <div className="campo_input">
                             <label htmlFor="senha">Senha:</label>
-                            <input value={novoSenha} onChange={(e) => setNovoSenha(e.target.value)} type="password" name="senha" placeholder="Digite sua senha" />
+                            <input value={senha} onChange={(e) => setSenha(e.target.value)} type="password" name="senha" placeholder="Digite sua senha" />
                         </div>
                     </div>
                     <Botao nomeDoBotao="Entrar"

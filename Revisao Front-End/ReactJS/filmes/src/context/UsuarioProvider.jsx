@@ -3,13 +3,13 @@ import UsuarioContext from './UsuarioContext';
 import { useEffect } from 'react';
 
 const UsuarioProvider = ({ children }) => {
-    const [email, setEmail] = useState(JSON.parse(localStorage.getItem("email")) || null);
+    const [usuario, setUsuario] = useState(JSON.parse(localStorage.getItem("usuario")) || null);
   
 
       useEffect(() => {
         //ao montar o componente, verifica se existe um usuário logado 
-        const usuarioLogado = JSON.parse(localStorage.getItem("email"))   
-        setEmail(usuarioLogado) //atualiza o state global com os dados do usuário 
+        const usuarioLogado = JSON.parse(localStorage.getItem("usuario"))   
+        setUsuario(usuarioLogado) //atualiza o state global com os dados do usuário 
     }, [])
 
 
@@ -17,8 +17,8 @@ const UsuarioProvider = ({ children }) => {
         <UsuarioContext.Provider
             value={
                 {
-                    email,
-                    setEmail,
+                    usuario,
+                    setUsuario,
                 }}>
                     
             {children}

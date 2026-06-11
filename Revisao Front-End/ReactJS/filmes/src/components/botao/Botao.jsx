@@ -9,7 +9,7 @@ const Botao = (props) => {
             if(props.onClick) {
                 props.onClick(e);
             }
-            props.funcBtn(e)
+            // props.funcBtn(e)
         }}
 
         >{props.nomeDoBotao}

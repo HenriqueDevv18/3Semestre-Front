@@ -9,8 +9,21 @@ const Rotas = () => {
         <BrowserRouter>
             <Routes>
                 <Route element={<Login />} path="/" />
-                <Route element={<CadastroFilme />} path="/filmes" />
-                <Route element={<CadastroGenero />} path="/generos" />
+
+                <Route path="/filmes" 
+                element={
+                    <PrivateRoute>
+                <CadastroFilme />
+                </PrivateRoute>
+                    }
+                  />
+
+                <Route path="/generos" element={
+                    <PrivateRoute>
+                    <CadastroGenero />
+                    </PrivateRoute>
+                    }  
+                    />
             </Routes>
         </BrowserRouter>
     )
