@@ -12,16 +12,16 @@ const Rotas = () => {
 
                 <Route path="/filmes" 
                 element={
-                    <PrivateRoute>
+                    
                 <CadastroFilme />
-                </PrivateRoute>
+                
                     }
                   />
 
                 <Route path="/generos" element={
-                    <PrivateRoute>
+                    
                     <CadastroGenero />
-                    </PrivateRoute>
+                    
                     }  
                     />
             </Routes>
